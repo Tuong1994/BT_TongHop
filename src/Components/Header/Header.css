@@ -1,0 +1,52 @@
+.bg-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    z-index: 10;
+    transition: all 0.3s;
+}
+
+.bg-navbar .navbar-brand,
+.bg-navbar .nav-link {
+    text-decoration: none;
+    color: #222;
+    transition: all 0.3s;
+}
+
+.sticky {
+    background: rgba(225,225,225,0.8s);
+    backdrop-filter: blur(10px);
+    border: none;
+}
+
+.sticky .navbar-brand,
+.sticky .nav-link {
+    color: #fff !important;
+}
+
+.bg-click {
+    background: rgba(225,225,225,0.8s);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px #222;
+    border-radius: 5px;
+    outline: none !important;
+}
+
+.search {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.search:hover {
+    background: #fff;
+    color: #222;
+    border: transparent;
+    box-shadow: 0 0 10px #222;
+}

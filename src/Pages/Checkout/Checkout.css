@@ -1,0 +1,16 @@
+.cinema-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.screen img {
+    width: 100%;
+    height: 100%;
+}
+
+.film-info {
+    background: rgba(225,225,225,0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    padding: 10px;dđ
+}
